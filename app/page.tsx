@@ -1,6 +1,8 @@
 import React from 'react';
 import '@/css/layouts/home-page.scss';
 import LadyImage from "@/images/Group 1000001998.svg";
+import Services from '@/components/Services';
+import Work from '@/components/Work';
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Services />
+      <Work />
     </div>
   );
 };

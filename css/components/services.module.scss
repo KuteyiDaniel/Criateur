@@ -1,0 +1,79 @@
+.services {
+  margin: 2vw;
+  box-sizing: content-box;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 1vh;
+    font-weight: bold;
+  }
+
+  .serviceConParent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 3vw;
+    padding: 0 3vw;
+  }
+
+  .serviceCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid #F2A413;
+    width: 14%;
+    // height: 30vh;
+    margin: 2vw;
+    padding: 1vw;
+  }
+
+  .labelCon {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    // background: red;
+  }
+
+  .icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  .label {
+    display: block;
+    font-size: medium;
+    height: 45px;
+    // background: black;
+  }
+
+  .button {
+    background: #F2A413;
+    padding: 1vh;
+    color: #00007B;
+    border: none;
+    display: flex;
+  }
+
+  .buttonIcon {
+    font-size: xx-small;
+  }
+
+  .contentDesc {
+    margin: 7vw;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+    overflow-wrap: break-word;
+    padding: 0 4vw;
+    text-align-last: center;
+  }
+}
