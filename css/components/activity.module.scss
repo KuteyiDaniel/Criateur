@@ -1,0 +1,67 @@
+.activity {
+  width: calc(100vw - 17px);
+  padding: 5vw;
+  // background: black;
+
+  .textCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5vw;
+    margin-bottom: 2vw;
+    // background: #00007B;
+  }
+
+  .header {
+    font-weight: bolder;
+    color: #00007B;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .pText {
+    font-size: 18px;
+  }
+
+  .serviceConParent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // background: black;
+    margin: 1vw  2vw;
+
+    .serviceCon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      border: 3px solid #f2a413;
+      width: 14%;
+      // margin: 2vw;
+      padding: 1vw;
+      // background: black;
+    }
+
+    .icon {
+      width: 70px;
+      height: 70px;
+      display: block;
+      margin: 0 auto;
+      object-fit: contain;
+    }
+
+    .labelCon {
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+      height: 65px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    .label {
+      display: block;
+      font-size: medium;
+      height: 45px;
+    }
+  }
+}
