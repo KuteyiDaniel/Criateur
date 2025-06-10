@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // import styles from "./services.module.css";
 import book from '@/images/Book.svg'
 import briefcase from '@/images/Briefcase.svg'

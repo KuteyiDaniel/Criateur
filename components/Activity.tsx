@@ -57,7 +57,7 @@ function Activity() {
         <h1 className={styles.header}>What We Do</h1>
         <p className={styles.pText}>
           We help brands communicate better with strategy, creativity, and
-          clarity. Whether you're building from scratch or leveraging up an
+          clarity. Whether you&apos;re building from scratch or leveraging up an
           existing presence, our services are designed to meet you where you are
           and move you forward with intention. From content and design to
           digital presence and strategic consulting, we partner with you to

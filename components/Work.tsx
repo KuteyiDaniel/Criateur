@@ -1,7 +1,6 @@
 import React from "react";
-import collab from "@/images/Collaboration-pana.svg";
-import type { StaticImageData } from "next/image";
 import Image from 'next/image';
+import collab from "@/images/Collaboration-pana.svg";
 import styles from '@/css/components/work.module.scss'
 
 function Work() {
