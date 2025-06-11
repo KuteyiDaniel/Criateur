@@ -40,7 +40,7 @@ function BusinessValue() {
           <Image src={img} alt='' className={styles.img}></Image>
         </div>
       </div>
-      <div style={{height: '50px', width: '100%', background: '#00007B', display: "block"}}></div>
+      <div style={{height: '70px', width: '100%', background: '#00007B', display: "block"}}></div>
     </div>
   )
 }

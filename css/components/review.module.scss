@@ -1,0 +1,63 @@
+.reviewPage {
+  height: 1000px;
+  width: 100%;
+  background: #e8f4fc;
+
+  .headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+  }
+
+  .priHd {
+    font-weight: bold;
+    font-size: 40px;
+    color: #00007B;
+    margin-bottom: 10px;
+  }
+
+  .secHd {
+    font-size: 30px;
+  }
+
+  .reviewCardCon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 5rem;
+    padding-top: 2rem;
+  }
+
+  .reviewCard {
+    background: linear-gradient(to right, #f2a413 25%, #e8f4fc 0%);
+    height: 330px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 15px;
+  }
+
+  .cardData {
+    padding: 13px;
+    height: 200px;
+    margin-left: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+
+  .rName {
+    color: #00007B;
+  }
+
+  .rRole {
+    margin-left: 7px;
+    margin-bottom: 4px;
+  }
+
+  .rMessage {
+    margin-top: 5px;
+    color: #00007B;
+  }
+}

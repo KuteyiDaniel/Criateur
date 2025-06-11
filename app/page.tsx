@@ -4,6 +4,7 @@ import LadyImage from "@/images/Group 1000001998.svg";
 import Services from '@/components/Services';
 import Work from '@/components/Work';
 import BusinessValue from '@/components/BusinessValue';
+import Review from '@/components/Review';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Services />
       <Work />
       <BusinessValue />
+      <Review />
     </div>
   );
 };
