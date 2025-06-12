@@ -15,12 +15,14 @@
   }
 
   .mainText{
+    font-family: var(--merriweather-font), sans-serif;
     font-size: 40px;
     color: #00007B;
     font-weight: bold;
   }
 
   .subText{
+    font-family: var(--merriweather-font), sans-serif;
     font-size: 30px;
   }
 
@@ -29,11 +31,6 @@
     align-items: center;
     justify-content: space-around;
     margin: 0;
-    // background: black;
-  }
-
-  .imgCon {
-    // margin-top: -150px;
   }
 
   .img {
@@ -64,10 +61,13 @@
   }
 
   .stepMainText {
-    font-size: 16px;
+    font-family: var(--merriweather-font), sans-serif;
+    font-size: 18px;
+    margin-bottom: 3px;
   }
 
   .stepSubText {
-    font-size: 12px;
+    font-family: var(--merriweather-font), sans-serif;
+    font-size: 14px;
   }
 }

@@ -1,9 +1,8 @@
 .body {
   background: #ffff;
-//   background: red;
-  height: 640px;
+  // background: red;
+  height: 780px;
   margin: 80px 0;
-//   margin-bottom: 50px;
 
   .headerCon {
     display: flex;
@@ -13,6 +12,7 @@
   }
 
   .header {
+    font-family: var(--merriweather-font), sans-serif;
     font-weight: bold;
     font-size: 50px;
     color: #00007B;
@@ -25,7 +25,6 @@
   }
 
   .cardsCon {
-    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -47,12 +46,23 @@
     border-bottom-right-radius: 43px;
   }
 
+  .cardHd {
+    font-family: var(--merriweather-font), sans-serif;
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+
+  .cardBd {
+    font-family: var(--merriweather-font), sans-serif;
+    font-size: 15px;
+  }
+
   .imageCon {
-    height: 550px;
+    // height: 600px;
     overflow: hidden;
   }
 
   .img {
-    margin-top: -120px;
+    // margin-top: -120px;
   }
 }

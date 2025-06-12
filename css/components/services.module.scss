@@ -1,13 +1,17 @@
 .services {
   padding: 2vw;
+  padding-top: 6vh;
   box-sizing: content-box;
   background: #e8f4fc;
 
   .header {
     display: flex;
     justify-content: center;
-    padding: 1vh;
+    padding: 1vw;
+    font-family: var(--merriweather-font), sans-serif;
+    font-size: 43px;
     font-weight: bold;
+    color: #00007b;
   }
 
   .serviceConParent {
@@ -23,9 +27,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 3px solid #F2A413;
-    width: 14%;
-    // height: 30vh;
+    border: 3px solid #f2a413;
+    width: 16%;
+    // background: black;
     margin: 2vw;
     padding: 1vw;
   }
@@ -50,20 +54,25 @@
 
   .label {
     display: block;
+    font-family: var(--merriweather-font), sans-serif;
     font-size: medium;
+    text-align: left;
     height: 45px;
-    // background: black;
   }
 
   .button {
-    background: #F2A413;
+    background: #f2a413;
     padding: 1vh;
-    color: #00007B;
+    color: #00007b;
     border: none;
-    display: flex;
+    display: flex;  
+    align-items: center;
+    font-family: var(--merriweather-font), sans-serif;
   }
 
   .buttonIcon {
+    width: 16px;
+    margin-left: 5px;
     font-size: xx-small;
   }
 
@@ -71,6 +80,7 @@
     margin: 7vw;
     font-size: 1.5rem;
     line-height: 1.6;
+    font-family: var(--merriweather-font), sans-serif;
     text-align: justify;
     text-justify: inter-word;
     overflow-wrap: break-word;

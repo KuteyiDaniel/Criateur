@@ -16,10 +16,12 @@
     font-size: 40px;
     color: #00007B;
     margin-bottom: 10px;
+    font-family: var(--merriweather-font), sans-serif;
   }
 
   .secHd {
     font-size: 30px;
+    font-family: var(--merriweather-font), sans-serif;
   }
 
   .reviewCardCon {
@@ -49,15 +51,18 @@
 
   .rName {
     color: #00007B;
+    font-family: var(--merriweather-font), sans-serif;
   }
 
   .rRole {
     margin-left: 7px;
     margin-bottom: 4px;
+    font-family: var(--merriweather-font), sans-serif;
   }
 
   .rMessage {
     margin-top: 5px;
     color: #00007B;
+    font-family: var(--merriweather-font), sans-serif;
   }
 }
