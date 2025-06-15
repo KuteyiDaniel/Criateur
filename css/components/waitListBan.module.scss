@@ -1,0 +1,52 @@
+.banner {
+  height: calc(100vh - 104px);
+  width: calc(100vw - 15px);
+  display: flex;
+  justify-content: space-around;
+  background: #00007b;
+
+  .txtSection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .mainText {
+    font-family: var(--merriweather-font), sans-serif;
+    font-size: 60px;
+    color: #F2A413;
+  }
+
+  .subText {
+    font-family: var(--merriweather-font), sans-serif;
+    font-size: 23px;
+    color: #FFFFFF;
+    font-weight: 400;
+  }
+
+  .designSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .ellipseBackground {
+    position: absolute;
+    width: 600px; 
+    height: 448px; 
+    background-color: #FCFCCD; 
+    clip-path: ellipse(50% 50% at 50% 50%);
+    bottom: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .img {
+    position: relative;
+    z-index: 1;
+    transform: scaleX(-1);
+  }
+}
